@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ 
+body {
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
+}
+.navbar-brand {
+  color: #6b7b81;
+}
+ 
+.bg-body-tertiary {
+  background-color: white !important;
+}
+.myBtn {
+  color: white;
+  background-color: #02a4de;
+}
+.portfolio {
+  background-color: #ffb703;
+}
+.portfolio2{
+  background-color: #0274de;
+}
+.iconStyle {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: #1982c4;
+}
+.iconStyle3{
+  display: block;
+  text-align: start;
+  font-size: 30px;
+}
+
+.headerVSpace {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.padding{
+  padding-left:150px;
+}
+.wdp{
+  color: #1982c4;
+}
+
+.text-center{
+  padding-left: 20px;
+}
+.colortext{
+  color: rgb(61, 61, 61);
+}
+.iconStyle2{
+  font-size: 90px;
+  color: #ffffff;
+}
+.white{
+  color: #ffffff;
+  padding: 0%;
+}

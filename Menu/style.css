@@ -1,0 +1,57 @@
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.imagehearder{
+    display: inline-block;
+    position: absolute;
+    right: 45%;
+}
+.omelette{
+    width: 800px;
+}
+.hearder{
+    background-color: #f0f0f0;
+    width:0 auto;
+    position: relative;
+    padding-left: 55%;
+}
+.subheader{
+    background-color: #ff0000;
+    display: inline-block;
+    width: 500px;
+}
+
+.topic{
+    margin-left: 20px;
+    width: 300px;
+    font-weight:500;
+    font-size:2lh;
+    background-color: antiquewhite;
+}
+.subtopic{
+    margin-left: 20px;
+    width: 400px;
+    bottom: 20px;
+    background-color: rgb(255, 207, 145);
+}
+
+.nutation{
+    margin-left: 20px;
+    width: 400px;
+    bottom: 20px;
+    background-color: rgb(102, 94, 84);
+}
+
+.table{
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    color: #000000;
+    font-size: 20px;
+
+}
+.tablename{
+    background-color: #ffffff;
+}
