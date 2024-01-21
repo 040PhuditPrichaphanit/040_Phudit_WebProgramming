@@ -1,0 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    scroll-behavior: smooth;
+  }
+
+.color1{
+    background-color: #638889;
+}
+
+
+
+.img-fluid{
+    height: auto;
+    width: 70%;
+}
+
+.marginprofile{
+    margin-left: 20%;
+}
+
+.marginprofilebut{
+    margin-bottom: 11%;
+}
+
+.iconstyle2{
+    text-align: center;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.iconstyle{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.colortext{
+    color: #ffffff;
+}
+
+.marginHomework{
+    margin-left: 5%;
+}
+.card-img-top{
+    width: 20px;
+    height: 150px;
+}
+
+a {
+    transition: all 0.5s ease-in-out;
+    color: #ffffff;
+  }
+
+span{
+    color: #ffffff;
+}
