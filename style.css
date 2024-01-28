@@ -8,13 +8,6 @@ body {
     background-color: #638889;
 }
 
-
-
-.img-fluid{
-    height: auto;
-    width: 70%;
-}
-
 .marginprofile{
     margin-left: 20%;
 }
@@ -54,4 +47,10 @@ a {
 
 span{
     color: #ffffff;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
