@@ -1,57 +1,67 @@
-body{
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
-    
-}
-.imagehearder{
-    display: inline-block;
-    position: absolute;
-    right: 45%;
-}
-.omelette{
-    width: 800px;
-}
-.hearder{
-    background-color: #f0f0f0;
-    width:0 auto;
-    position: relative;
-    padding-left: 55%;
-}
-.subheader{
-    background-color: #ff0000;
-    display: inline-block;
-    width: 500px;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
 }
 
-.topic{
-    margin-left: 20px;
-    width: 300px;
-    font-weight:500;
-    font-size:2lh;
-    background-color: antiquewhite;
-}
-.subtopic{
-    margin-left: 20px;
-    width: 400px;
-    bottom: 20px;
-    background-color: rgb(255, 207, 145);
-}
 
-.nutation{
-    margin-left: 20px;
-    width: 400px;
-    bottom: 20px;
-    background-color: rgb(102, 94, 84);
+.topcommit{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-bottom:2px solid cadetblue;
 }
-
-.table{
-    background-color: #f0f0f0;
-    margin-left: 20px;
-    color: #000000;
+.howtomake{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.With{
     font-size: 20px;
-
 }
-.tablename{
-    background-color: #ffffff;
+
+
+.coverNUTRITIONFACTS{
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 40px;
+    position: relative;
+    margin-top: 25px;
+}
+.NUTRITIONFACTS{
+    bottom:80px;
+    position: absolute;
+    color: cadetblue;
+    background-color: white;
+}
+.PERSERVING{
+    font-size:medium;
+}
+
+.num{
+    font-size: 20px;
+    font-weight: bolder;
+    color: cadetblue;
+    margin-bottom: 0;
+}
+
+/*/////////////////////////////////////// ส่วนหัว ///////////////////////////////////////*/
+
+.Method{
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+}
+.li{
+    padding-bottom: 10px;
+}
+
+.img{
+    padding: 10px;
+}
+
+/* ////////////////////////////////////// ส่วนFooter /////////////////////////////////////// */ 
+
+.color{
+    background-color:aliceblue;
+    
 }
