@@ -1,11 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Jost", sans-serif;
+}
 body {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom,#fffffd, #FBFADA, #ADBC9F);
   }
 
 .color1{
-    background-color: #638889;
+    background-color: #436850;
 }
 
 .marginprofile{
@@ -27,7 +35,6 @@ body {
     font-size: 60px;
 }
 
-
 .colortext{
     color: #ffffff;
 }
@@ -35,10 +42,7 @@ body {
 .marginHomework{
     margin-left: 5%;
 }
-.card-img-top{
-    width: 20px;
-    height: 150px;
-}
+
 
 a {
     transition: all 0.5s ease-in-out;
@@ -49,8 +53,138 @@ span{
     color: #ffffff;
 }
 
-.control{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+
+/* /////////////// Headedr //////////////// */
+
+.imageH{
+    box-shadow: #ADBC9F 4px 4px;
+}
+
+.boxshadow{
+    border: solid 2px #ADBC9F;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: #436850 4px 4px;
+    transition: scale 0.1s ease-in-out;
+}
+
+.boxshadow:hover{
+    scale: 1.05;
+}
+
+.box{
+    position: relative;
+    
+}
+
+.sitcker{
+    position: absolute;
+    width: 150px;
+    left: 80%;
+    bottom: 50%;
+}
+
+.Life{
+    font-family: "Dancing Script", cursive;
+}
+
+/* /////////////About Me//////////////////// */
+.position{
+    display:contents;
+}
+
+.boxzoom{
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: scale 0.1s ease-in-out;
+}
+.boxzoom:hover{
+    color:#0d291f;
+    scale: 1.05;
+}
+
+.fontaboutme{
+    font-size: 6vh;
+}
+
+/* /////////////Exercies//////////////////// */
+.fontaboutHome{
+    font-size: 6vh;
+}
+.cardLink{
+    text-decoration: none;
+    transition: scale 0.1s ease-in-out;
+
+}
+.cardLink:hover{
+    scale: 1.05;
+
+}
+
+
+
+
+/* /////////////// Footer //////////////// */
+.backgorundF{
+    background-color: #ADBC9F;
+}
+
+.fontsize{
+    font-size: 5vh;
+    color: #000;
+    text-decoration: none;
+}
+
+.fontsizef{
+    transition:0.5s ease-in-out;
+    font-size: 5vh;
+    color: #173b30;
+    padding: 10px
+}
+
+.fontsizef:hover{
+    color: #006eff;
+}
+
+.fontsizeg{
+    transition:0.5s ease-in-out;
+    font-size: 5vh;
+    color: #173b30;
+    padding: 10px
+}
+
+.fontsizeg:hover{
+    color: #000000;
+}
+
+.fontsizei{
+    transition:0.5s ease-in-out;
+    font-size: 5vh;
+    color: #173b30;
+    padding: 10px
+}
+
+.fontsizei:hover{
+    color: #ff279e;
+}
+
+.fontsizey{
+    transition:0.5s ease-in-out;
+    font-size: 5vh;
+    color: #173b30;
+    padding: 10px
+}
+
+.fontsizey:hover{
+    color: #ff3434;
+}
+
+.colorfontf{
+    color: #000000;
+}
+
+.backgroundfooter{
+    background-color: #FBFADA;
 }
